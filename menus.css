@@ -1,0 +1,183 @@
+#nav1 {
+  margin: 70px ;
+  padding: 0 ;
+  list-style: none ;
+  text-align: center ;
+}
+/**On va limiter la largeur du menu à une valeur de 200px, supprimer les marges et padding par défaut ainsi que la puce des éléments**/
+
+#nav1 li {
+  display: inline ;
+  margin-right: 0px ;
+  color: #00FFFF ;
+  background: #000000 ;
+}
+/**On va donner une bordure, une couleur de fond et une couleur de texte aux éléments <li>**/
+
+#nav1 li a {
+  padding: 10px 40px ;
+  background: #000000 ;
+  color: #00FFFF ;
+  border: 1px solid #600 ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+}
+/**Pour que les éléments du menu réagissent comme des boutons au passage de la souris, il faut faire en sorte que les liens occupent tout l'espace à l'intérieur des <li>**/
+
+#nav1 li a:hover, #nav1 li a:focus, #nav1 li a:active {
+  background: #E0FFFF ;
+  text-decoration: underline ;
+
+}
+li:nth-child(4) { color: green; }
+/**Il ne reste plus qu'à faire en sorte que les liens réagissent au passage de la souris ou lorsqu'ils reçoivent le focus**/
+
+#nav2 {
+  margin: 70px ;
+  padding: 0 ;
+  list-style: none ;
+  text-align: center ;
+  
+}
+
+
+#nav2 li {
+  display: inline ;
+  margin-right: 1px ;
+  color: #FF0000 ;
+  background: #008080 ;
+}
+
+
+#nav2 li a {
+  padding: 10px 40px ;
+  background: #008080 ;
+  color: #FF0000 ;
+  border: 1px solid #600 ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+  -moz-border-radius:10px 0;
+-webkit-border-radius:10px 0;
+border-radius:10px 0;
+}
+
+#nav2 li a:hover, #nav2 li a:focus, #nav2 li a:active {
+  background: #E0FFFF ;
+  text-decoration: underline ;
+}
+
+#nav3 {
+  margin: 70px ;
+  padding: 0 ;
+  list-style: none ;
+  text-align: center ;
+  
+}
+
+#nav3 li {
+  display: inline ;
+  margin-right: 1px ;
+  color: #2F4F4F ;
+  background: #E9967A ;
+}
+
+#nav3 li a {
+  padding: 10px 40px ;
+  background: #E9967A ;
+  color: #2F4F4F ;
+  border: 1px solid #600 ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+  -moz-border-radius:10px 10px;
+  -webkit-border-radius:10px 10px;
+  border-radius:10px 10px;
+  
+}
+
+#nav3 li a:hover, #nav3 li a:focus, #nav3 li a:active {
+  background: #E0FFFF ;
+  text-decoration: underline ;
+}
+
+#nav4 {
+  margin: 70px ;
+  padding: 0 ;
+  list-style: none ;
+  text-align: center ;
+  
+}
+
+#nav4 li {
+  display: inline ;
+  margin-right: 1px ;
+  color: #800000 ;
+  background: #00FA9A ;
+}
+
+#nav4 li a {
+  padding: 10px 40px ;
+  background: #00FA9A ;
+  color: #800000 ;
+  border: 1px solid #600 ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+  width: 100px;
+  height: 100px;
+  background: #00FA9A;
+  border-radius: 50%
+  
+}
+
+#nav4 li a:hover, #nav4 li a:focus, #nav4 li a:active {
+  background: #E0FFFF ;
+  text-decoration: underline ;
+}
+
+#nav5 {
+  margin: 200px ;
+  padding: 0 ;
+  list-style: none ;
+  text-align: center ;
+  
+}
+
+#nav5 li {
+  display: inline ;
+  margin-right: 1px ;
+  color: none ;
+  background: #FFFFFF ;
+}
+
+#nav5 li a {
+  padding: 5px 5px ;
+  background: #FFFFFF ;
+  color: none ;
+  border-right: 1px solid #600 ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+     width: 0px;
+      height: 0px;
+      border-right: 60px solid transparent;
+      border-top: 60px solid #FFD700;
+      border-left: 60px solid #FFD700;
+      border-bottom: 60px solid #FFD700;
+      border-top-left-radius: 80px;
+      border-top-right-radius: 80px;
+      border-bottom-left-radius: 80px;
+      border-bottom-right-radius: 80px;
+}
+
+#nav5 li a:hover, #nav5 li a:focus, #nav5 li a:active {
+  background: #FFD700 ;
+  text-decoration: underline ;
+}

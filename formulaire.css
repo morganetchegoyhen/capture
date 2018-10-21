@@ -1,0 +1,37 @@
+h1 {
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+	margin-bottom: 32px;
+ 	color:#DF3F3F;
+ 	font-weight:bold
+ }
+
+/**body {
+color:black;
+background-color:white;
+background-image:url(images.jpg);
+background-position:right top;
+
+}**/
+body {
+ font-family:"trebuchet ms",sans-serif;
+ font-size:90%;
+ }
+
+
+form {
+ background-color:#FFD700;
+ 
+ }
+
+
+fieldset {
+ padding:0 40px 40px 40px;
+ margin-bottom:0px;
+ border:1px solid #DF3F3F;
+ background-color: #008080;
+ }
+
+input#btn {
+	background-color: #008080;
+}
